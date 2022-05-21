@@ -1,6 +1,6 @@
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# About The Project
 
 This repository is created to showcase my skills in the 2022 Summer Shopify Beckend Developer Intern Challenge utilizing RoR framework and MVC Design Pattern. The Web Application utilizes a postgresql database to store and update a list of inventory items. 
 ### [Click here](https://shopifybechallenge.kg-byte.repl.co/) to view and navigate the production site on Replit. 
@@ -65,12 +65,12 @@ _Below is an example of how you can instruct your audience on installing and set
 
 <p>
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
- [Kim Guo](https://www.linkedin.com/in/kim-guo-5331b4158/)
+ - [Kim Guo](https://www.linkedin.com/in/kim-guo-5331b4158/)
 </p>
 
 <p>
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
- [Kim Guo](https://github.com/kg-byte)
+ - [Kim Guo](https://github.com/kg-byte)
 </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
