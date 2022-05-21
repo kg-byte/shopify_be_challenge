@@ -24,7 +24,7 @@
       <td><%= item.quantity %></td>
       <td><%= item.status %></td>
       <td><%= link_to 'Edit', edit_item_path(item) %></td>
-      <td><%= link_to 'Delete', "/items/#{item.id}?type=soft", method: :delete %></td>
+      <td><%= link_to 'Delete', "/items/#{item.id}?type=permanent", method: :delete %></td>
     </tr>
     </div>
   </tbody>

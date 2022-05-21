@@ -1,7 +1,7 @@
 class ItemsController < ApplicationController
   before_action :set_item, only: [:edit, :update]
   def index
-    @items = Item.all 
+    @items = Item.with_deleted.all 
   end
   
   def new
@@ -39,7 +39,7 @@ class ItemsController < ApplicationController
     end
       redirect_to items_path
   end
-  
+
 private 
   def item_params
     params.permit(:name, :description, :quantity, :status)
