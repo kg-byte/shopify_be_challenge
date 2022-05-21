@@ -1,5 +1,5 @@
 class ItemsController < ApplicationController
-  before_action :set_item, only: [:edit, :update, :destroy]
+  before_action :set_item, only: [:edit, :update]
   def index
     @items = Item.all 
   end
@@ -31,9 +31,17 @@ class ItemsController < ApplicationController
   end
 
   def destroy
-    @item.destroy
-    redirect_to items_path
+    item = Item.with_deleted.find(params[:id])
+    if params[:type] == 'soft'
+      item.destroy
+    elsif params[:type] == 'permanent'
+      item.really_destroy!
+    elsif params[:type] == 'restore'
+      item.restore
+    end
+      redirect_to items_path
   end
+
 private 
   def item_params
     params.permit(:name, :description, :quantity, :status)

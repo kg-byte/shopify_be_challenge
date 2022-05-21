@@ -1,4 +1,6 @@
 class Item < ApplicationRecord
+  acts_as_paranoid
+  
   validates_presence_of :name, :description, :quantity, :status
   enum status: {"In stock" => 0, "Out of stock" => 1}
   validates :quantity, numericality: {only_integer: true}

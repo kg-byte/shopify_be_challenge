@@ -30,7 +30,7 @@ RSpec.describe Item, type: :feature do
     expect(current_path).to eq(new_item_path)
   end
 
-  it 'has a link to edit an existing item' do 
+  it 'has a button to edit an existing item' do 
     visit items_path
 
     within ".item-#{item1.id}" do
@@ -40,7 +40,7 @@ RSpec.describe Item, type: :feature do
     expect(current_path).to eq(edit_item_path(item1))
   end
 
-  it 'has a link to edit an existing item' do 
+  it 'has a button to delete an existing item' do 
     visit items_path
 
     within ".item-#{item1.id}" do
@@ -48,8 +48,62 @@ RSpec.describe Item, type: :feature do
     end
 
     expect(current_path).to eq(items_path)
-    expect(page).to_not have_content(item1.name)
-    expect(page).to_not have_content(item1.description)
-    expect(page).to_not have_content(item1.quantity)
+    within('.active_items') do 
+      expect(page).to_not have_content(item1.name)
+      expect(page).to_not have_content(item1.description)
+      expect(page).to_not have_content(item1.quantity)
+    end
+
+    within('.deleted_items') do 
+      expect(page).to have_content(item1.name)
+      expect(page).to have_content(item1.description)
+      expect(page).to have_content(item1.quantity)
+    end
+  end
+
+  it 'has a button to restore a deleted item' do 
+    visit items_path
+
+    within ".item-#{item1.id}" do
+      click_on 'Delete'
+    end
+
+    expect(current_path).to eq(items_path)
+    within('.active_items') do 
+      expect(page).to_not have_content(item1.name)
+      expect(page).to_not have_content(item1.description)
+      expect(page).to_not have_content(item1.quantity)
+    end
+
+    within('.deleted_items') do 
+      click_on 'Restore'
+    end
+
+    expect(current_path).to eq(items_path)
+    within('.active_items') do 
+      expect(page).to have_content(item1.name)
+      expect(page).to have_content(item1.description)
+      expect(page).to have_content(item1.quantity)
+    end
+  end
+
+  it 'has a button to permanently delete a deleted item' do 
+    visit items_path
+
+    within ".item-#{item1.id}" do
+      click_on 'Delete'
+    end
+
+
+    within('.deleted_items') do 
+      click_on 'Delete'
+    end
+
+    expect(current_path).to eq(items_path)
+    
+      expect(page).to_not have_content(item1.name)
+      expect(page).to_not have_content(item1.description)
+      expect(page).to_not have_content(item1.quantity)
+  
   end
 end
