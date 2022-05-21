@@ -1,0 +1,26 @@
+<div id=create_item>
+  <%= form_with url: '/items', method: :post, local: true do |form| %>
+  <div class="mb-3 row">
+    <%= form.label :name, "Name:" %>
+    <div class="col-sm-10">
+      <%= form.text_field :name %>
+    </div><br>
+      <%= form.label :description, "Description:" %>
+    <div class="col-sm-10">
+      <%= form.text_field :description %>
+    </div><br>
+      <%= form.label :quantity, "Quantity:" %>
+    <div class="col-sm-10">
+      <%= form.text_field :quantity %>
+    </div><br>
+    <div class="col-sm-10">
+      <%= form.radio_button :status, 'In stock', checked: true %>
+      <%= form.label :status, 'In Stock' %>
+      <%= form.radio_button :status, 'Out of stock' %>
+      <%= form.label :status, 'Out of Stock' %>    
+   </div><br>
+    <div class="col-sm-10">
+      <%= form.submit 'Create Item' %>
+    </div><br>
+  <% end %>
+</div>
