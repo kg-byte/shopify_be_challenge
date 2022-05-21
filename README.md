@@ -2,9 +2,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 ### [Click here](https://shopifybechallenge.kg-byte.repl.co/) to view and navigate the production site on Replit.
-This repository is created to showcase my skills in the 2022 Summer Shopify Beckend Developer Intern Challenge utilizing RoR framework and MVC Design Pattern. The Web Application utilizes a postgresql database to store and update a list of inventory items.
+This repository is created to showcase my skills in the 2022 Summer Shopify Beckend Developer Intern Challenge utilizing RoR framework and MVC Design Pattern. The Web Application utilizes a postgresql database to store and update a list of inventory items. Replit site screenshot:
+<img width="1390" alt="Screen Shot 2022-05-21 at 3 44 43 PM" src="https://user-images.githubusercontent.com/97060659/169670782-c3e13932-c482-4ad0-85eb-aad93d4b361c.png">
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
 ## Tasks Completed:
 
 - [x] CRUD Action
@@ -18,6 +22,8 @@ This repository is created to showcase my skills in the 2022 Summer Shopify Beck
     - [x] Allow Permanent deletion of a (soft) deleted item.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
 ### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
