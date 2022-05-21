@@ -1,8 +1,12 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-### [Click here](https://shopifybechallenge.kg-byte.repl.co/) to view and navigate the production site on Replit.
-This repository is created to showcase my skills in the 2022 Summer Shopify Beckend Developer Intern Challenge utilizing RoR framework and MVC Design Pattern. The Web Application utilizes a postgresql database to store and update a list of inventory items. Replit site screenshot:
+
+This repository is created to showcase my skills in the 2022 Summer Shopify Beckend Developer Intern Challenge utilizing RoR framework and MVC Design Pattern. The Web Application utilizes a postgresql database to store and update a list of inventory items. 
+### [Click here](https://shopifybechallenge.kg-byte.repl.co/) to view and navigate the production site on Replit. 
+  
+Replit site screenshot:
+  
 <img width="1390" alt="Screen Shot 2022-05-21 at 3 44 43 PM" src="https://user-images.githubusercontent.com/97060659/169670782-c3e13932-c482-4ad0-85eb-aad93d4b361c.png">
 
 
@@ -28,7 +32,7 @@ This repository is created to showcase my skills in the 2022 Summer Shopify Beck
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [RoR Framework]([https://nextjs.org/](https://rubyonrails.org/))
+* [RoR Framework]([https://nextjs.org/](https://rubyonrails.org/)
 * [Bootstrap](https://getbootstrap.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -56,18 +60,17 @@ _Below is an example of how you can instruct your audience on installing and set
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
-## Contact
+## Contributor
 
-Kim Guo, RoR Backend Developer
 
 <p>
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
- [Find me on LinkedIn](https://www.linkedin.com/in/kim-guo-5331b4158/)
+ [Kim Guo](https://www.linkedin.com/in/kim-guo-5331b4158/)
 </p>
 
 <p>
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
- [Find me on Github](https://github.com/kg-byte)
+ [Kim Guo](https://github.com/kg-byte)
 </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
