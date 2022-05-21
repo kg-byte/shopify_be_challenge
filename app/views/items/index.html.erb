@@ -24,7 +24,38 @@
       <td><%= item.quantity %></td>
       <td><%= item.status %></td>
       <td><%= link_to 'Edit', edit_item_path(item) %></td>
-      <td><%= link_to 'Delete', item_path(item), method: :delete %></td>
+      <td><%= link_to 'Delete', "/items/#{item.id}?type=soft", method: :delete %></td>
+    </tr>
+    </div>
+  </tbody>
+  <% end %>
+</table>
+
+<br><br>
+<h3>Deleted Items</h3>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">Description</th>
+      <th scope="col">Quantity</th>
+      <th scope="col">Status</th>
+      <th scope="col">Restore Item</th>
+      <th scope="col">Delete Item For Good</th>
+    </tr>
+  </thead>
+    <% @items.only_deleted.each_with_index do |item, index| %>
+  <tbody>
+    <div class="item-<%=item.id%>">
+    <tr>
+      <th scope="row"><%= index+1 %></th>
+      <td><%= item.name %></td>
+      <td><%= item.description %></td>
+      <td><%= item.quantity %></td>
+      <td><%= item.status %></td>
+      <td><%= link_to 'Edit', edit_item_path(item) %></td>
+      <td><%= link_to 'Delete', "/items/#{item.id}?type=permanent", method: :delete %></td>
     </tr>
     </div>
   </tbody>
