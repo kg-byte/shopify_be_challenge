@@ -1,24 +1,88 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<!-- ABOUT THE PROJECT -->
+## About The Project
+<img width="1390" alt="Screen Shot 2022-05-21 at 3 44 43 PM" src="https://user-images.githubusercontent.com/97060659/169669933-bdf2ae28-3bd0-411a-8d41-e89ef44536a2.png">
 
-Things you may want to cover:
+This repository is created to showcase my skills in the 2022 Summer Shopify Beckend Developer Intern Challenge utilizing RoR framework and MVC Design Pattern. The Web Application utilizes a postgresql database to store and update a list of inventory items.
+### [Click here](https://shopifybechallenge.kg-byte.repl.co/) to view and navigate the production site on Replit.
 
-* Ruby version
+## Tasks Completed:
 
-* System dependencies
+- [x] CRUD Action
+    - [x] Create new Inventory Item
+    - [x] Display all Inventory Items
+    - [x] Updating an existing Inventory Item
+    - [x] Delete an existing Inventory Item
+- [x] Undeletion Feature
+    - [x] Allow Soft Deletion of an Item
+    - [x] Allow an optional comment when soft deleting an item.
+    - [x] Allow Permanent deletion of a (soft) deleted item.
 
-* Configuration
 
-* Database creation
+### Built With
 
-* Database initialization
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* How to run the test suite
+* [RoR Framework]([https://nextjs.org/](https://rubyonrails.org/))
+* [Bootstrap](https://getbootstrap.com)
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
+<!-- GETTING STARTED -->
+
+### Installation
+
+_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+
+1. Clone the repo
+   ```
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+2. Install Gems and dependencies 
+   ```
+   bundle install
+   ```
+3. Running test suite
+   ```
+   bundle exec rspec
+   ```
+
+## Usage
+
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+
+_For more examples, please refer to the [Documentation](https://example.com)_
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTACT -->
+## Contact
+
+Kim Guo, RoR Backend Developer
+
+<p>
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+</p>
+
+[Find me on LinkedIn](https://www.linkedin.com/in/kim-guo-5331b4158/)
+
+<p>
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+</p>
+
+- [Find me on Github](https://github.com/kg-byte)
+
+
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+The soft deletion feature was built using paranoia gem:
+
+* [RoR Paranoia Gem](https://github.com/rubysherpas/paranoia)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
