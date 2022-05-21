@@ -234,6 +234,8 @@
           null,
           null,
           null,
+          null,
+          1,
           null
         ]
       },
@@ -259,8 +261,60 @@
           1,
           null
         ]
+      },
+      "/Users/xiaoleguo/kg_byte/projects/shopify_be_challenge/spec/models/item_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/xiaoleguo/kg_byte/projects/shopify_be_challenge/app/controllers/items_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          2,
+          2,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/xiaoleguo/kg_byte/projects/shopify_be_challenge/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1653149332
+    "timestamp": 1653150285
   }
 }
