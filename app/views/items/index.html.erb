@@ -1,5 +1,5 @@
 <h1>List of Items</h1>
-<%= link_to 'Create New Item', new_item_path %>
+<%= button_to 'Create New Item', new_item_path, class: "btn btn-success", method: :get%>
 
 <br><br>
 <div class='active_items'>
@@ -67,7 +67,7 @@
       <td><%= item.quantity %></td>
       <td><%= item.status %></td>
       <td><%= item.comment.content if item.comment %></td>
-      <td><%= button_to 'Restore', "/items/#{item.id}?type=restore", method: :delete %></td>
+      <td><%= button_to 'Restore', "/items/#{item.id}?type=restore", method: :delete , class: "btn btn-success"%></td>
       <td><%= button_to 'Delete', "/items/#{item.id}?type=permanent", method: :delete, :onclick => "return confirm('Are you sure you want to permanently delete this item?')", class: "btn btn-danger"%></td>
     </tr>
     </div>
