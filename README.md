@@ -1,10 +1,13 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+### [Click here](https://shopifybechallenge.kg-byte.repl.co/) to view and navigate the production site on Replit.
+This repository is created to showcase my skills in the 2022 Summer Shopify Beckend Developer Intern Challenge utilizing RoR framework and MVC Design Pattern. The Web Application utilizes a postgresql database to store and update a list of inventory items.
+
+Root(/items) page screenshot:
+
 <img width="1390" alt="Screen Shot 2022-05-21 at 3 44 43 PM" src="https://user-images.githubusercontent.com/97060659/169669933-bdf2ae28-3bd0-411a-8d41-e89ef44536a2.png">
 
-This repository is created to showcase my skills in the 2022 Summer Shopify Beckend Developer Intern Challenge utilizing RoR framework and MVC Design Pattern. The Web Application utilizes a postgresql database to store and update a list of inventory items.
-### [Click here](https://shopifybechallenge.kg-byte.repl.co/) to view and navigate the production site on Replit.
 
 ## Tasks Completed:
 
@@ -47,11 +50,6 @@ _Below is an example of how you can instruct your audience on installing and set
    bundle exec rspec
    ```
 
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -72,7 +70,7 @@ Kim Guo, RoR Backend Developer
 
 - [Find me on Github](https://github.com/kg-byte)
 
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- ACKNOWLEDGMENTS -->
