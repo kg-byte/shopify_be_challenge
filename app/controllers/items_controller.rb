@@ -36,6 +36,8 @@ class ItemsController < ApplicationController
       item.destroy
     elsif params[:type] == 'permanent'
       item.really_destroy!
+    elsif params[:type] == 'restore'
+      item.restore
     end
       redirect_to items_path
   end
