@@ -1,7 +1,7 @@
 class ItemsController < ApplicationController
   before_action :set_item, only: [:edit, :update]
   def index
-    @items = Item.with_deleted.all 
+    @items = Item.all 
   end
   
   def new
