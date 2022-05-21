@@ -4,10 +4,6 @@
 ### [Click here](https://shopifybechallenge.kg-byte.repl.co/) to view and navigate the production site on Replit.
 This repository is created to showcase my skills in the 2022 Summer Shopify Beckend Developer Intern Challenge utilizing RoR framework and MVC Design Pattern. The Web Application utilizes a postgresql database to store and update a list of inventory items.
 
-Root(/items) page screenshot:
-
-<img width="1390" alt="Screen Shot 2022-05-21 at 3 44 43 PM" src="https://user-images.githubusercontent.com/97060659/169669933-bdf2ae28-3bd0-411a-8d41-e89ef44536a2.png">
-
 
 ## Tasks Completed:
 
