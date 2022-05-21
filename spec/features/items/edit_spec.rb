@@ -6,16 +6,10 @@ RSpec.describe Item, type: :feature do
 
     visit edit_item_path(item)
 
-
-
-    # within ".item-#{item.id}" do
-    #   click_on edit
-    # end
-    
-      fill_in :name, with: 'New Item'
-      fill_in :description, with: 'A description'
-      fill_in :quantity, with: 20
-      click_on 'Update Item'
+    fill_in :name, with: 'New Item'
+    fill_in :description, with: 'A description'
+    fill_in :quantity, with: 20
+    click_on 'Update Item'
 
     expect(current_path).to eq(items_path)
     expect(page).to have_content('New Item')

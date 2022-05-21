@@ -1,5 +1,5 @@
 class ItemsController < ApplicationController
-  before_action :set_item, only: [:edit, :update]
+  before_action :set_item, only: [:edit, :update, :destroy]
   def index
     @items = Item.all 
   end
@@ -28,9 +28,12 @@ class ItemsController < ApplicationController
       redirect_to edit_item_path(@item)
       flash[:alert] = "#{@item.errors.full_messages.to_sentence}"
     end
-
   end
 
+  def destroy
+    @item.destroy
+    redirect_to items_path
+  end
 private 
   def item_params
     params.permit(:name, :description, :quantity, :status)
