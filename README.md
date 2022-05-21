@@ -32,7 +32,7 @@ Replit site screenshot:
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [RoR Framework]([https://nextjs.org/](https://rubyonrails.org/)
+* [RoR Framework](https://rubyonrails.org/)
 * [Bootstrap](https://getbootstrap.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -60,20 +60,20 @@ _Below is an example of how you can instruct your audience on installing and set
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
-## Contributor
 
-
+## Contact
 <p>
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
- - [Kim Guo](https://www.linkedin.com/in/kim-guo-5331b4158/)
 </p>
+
+- [Kim Guo](https://www.linkedin.com/in/kim-guo-5331b4158/)
+
 
 <p>
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
- - [Kim Guo](https://github.com/kg-byte)
 </p>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+- [Kim Guo](https://github.com/kg-byte)
 
 
 <!-- ACKNOWLEDGMENTS -->
