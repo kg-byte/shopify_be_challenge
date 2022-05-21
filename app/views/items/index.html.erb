@@ -24,8 +24,16 @@
       <td><%= item.description %></td>
       <td><%= item.quantity %></td>
       <td><%= item.status %></td>
-      <td><%= button_to 'Edit', edit_item_path(item), method: :get%></td>
-      <td><%= button_to 'Delete', "/items/#{item.id}?type=soft", method: :delete %></td>
+      <td><%= button_to 'Edit', edit_item_path(item), method: :get, class: "btn btn-primary"%></td>
+      <td><%= form_with url: "/items/#{item.id}?type=soft", method: :delete, local:true do |f|%>
+          <%= f.text_field :comment, {placeholder: "Enter Optional Comment Here..." } %>
+            </div>
+
+        <%= f.submit "Delete", class: "btn btn-warning" %>
+      <% end %></td>
+
+
+
     </tr>
     </div>
   </tbody>
@@ -44,6 +52,7 @@
       <th scope="col">Description</th>
       <th scope="col">Quantity</th>
       <th scope="col">Status</th>
+      <th scope="col">Comment</th>
       <th scope="col">Restore Item</th>
       <th scope="col">Permanently Delete Item</th>
     </tr>
@@ -57,8 +66,9 @@
       <td><%= item.description %></td>
       <td><%= item.quantity %></td>
       <td><%= item.status %></td>
+      <td><%= item.comment.content if item.comment %></td>
       <td><%= button_to 'Restore', "/items/#{item.id}?type=restore", method: :delete %></td>
-      <td><%= button_to 'Delete', "/items/#{item.id}?type=permanent", method: :delete, :onclick => "return confirm('Are you sure you want to permanently delete this item?')"%></td>
+      <td><%= button_to 'Delete', "/items/#{item.id}?type=permanent", method: :delete, :onclick => "return confirm('Are you sure you want to permanently delete this item?')", class: "btn btn-danger"%></td>
     </tr>
     </div>
   </tbody>

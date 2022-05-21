@@ -33,10 +33,13 @@ class ItemsController < ApplicationController
   def destroy
     item = Item.with_deleted.find(params[:id])
     if params[:type] == 'soft'
+      Comment.create(content: params[:comment], item: item) if params[:comment]
       item.destroy
     elsif params[:type] == 'permanent'
+      item.comment.destroy if item.comment
       item.really_destroy!
     elsif params[:type] == 'restore'
+      item.comment.destroy if item.comment
       item.restore
     end
       redirect_to items_path
