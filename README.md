@@ -45,7 +45,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone git@github.com:kg-byte/shopify_be_challenge.git
    ```
 2. Install Gems and dependencies 
    ```
