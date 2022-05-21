@@ -4,7 +4,7 @@
 ### [Click here](https://shopifybechallenge.kg-byte.repl.co/) to view and navigate the production site on Replit.
 This repository is created to showcase my skills in the 2022 Summer Shopify Beckend Developer Intern Challenge utilizing RoR framework and MVC Design Pattern. The Web Application utilizes a postgresql database to store and update a list of inventory items.
 
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 ## Tasks Completed:
 
 - [x] CRUD Action
@@ -17,7 +17,7 @@ This repository is created to showcase my skills in the 2022 Summer Shopify Beck
     - [x] Allow an optional comment when soft deleting an item.
     - [x] Allow Permanent deletion of a (soft) deleted item.
 
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 ### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
@@ -25,7 +25,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 * [RoR Framework]([https://nextjs.org/](https://rubyonrails.org/))
 * [Bootstrap](https://getbootstrap.com)
 
-
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -56,15 +56,13 @@ Kim Guo, RoR Backend Developer
 
 <p>
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+ [Find me on LinkedIn](https://www.linkedin.com/in/kim-guo-5331b4158/)
 </p>
-
-[Find me on LinkedIn](https://www.linkedin.com/in/kim-guo-5331b4158/)
 
 <p>
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+ [Find me on Github](https://github.com/kg-byte)
 </p>
-
-- [Find me on Github](https://github.com/kg-byte)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
